@@ -27,15 +27,5 @@ namespace MvcShopping.Controllers
 
             return View();
         }
-
-        public IActionResult Login(string email, string password, string returnUrl)
-        {
-            if (ValidateUser(email, password))
-            {
-
-            }
-
-            return View();
-        }
     }
 }
