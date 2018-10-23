@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MvcShopping.Models;
+using System.Drawing;
 
 namespace MvcShopping.Controllers
 {
@@ -15,17 +16,13 @@ namespace MvcShopping.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult ProductList (int id)
         {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult ProductDetail (int id)
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 
